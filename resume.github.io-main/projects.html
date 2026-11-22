@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Neeldhwaj K R</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span>NK</span> / profile</a
+      ><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        Menu
+      </button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="resume.html">Resume</a
+        ><a href="bio-data.html">Bio-data</a><a class="active" href="projects.html">Projects</a>
+      </nav>
+    </header>
+    <main class="page-wrap inner-page">
+      <div class="page-title project-title reveal">
+        <p class="eyebrow">03 / things I have built</p>
+        <h1>Projects<span>.</span></h1>
+        <p>Selected projects in natural language processing and backend development.</p>
+      </div>
+      <div class="project-toolbar reveal">
+        <span class="eyebrow">Filter by language</span>
+        <div class="filter-buttons">
+          <button class="filter-button active" data-filter="all">All</button
+          ><button class="filter-button" data-filter="cpp">C++</button
+          ><button class="filter-button" data-filter="java">Java</button>
+        </div>
+      </div>
+      <div class="project-list">
+        <article class="project-card reveal" data-category="cpp">
+          <div class="project-number">01</div>
+          <div>
+            <p class="project-type">C++ / NLP / Byte Pair Encoding</p>
+            <h2>LLM Tokenizer</h2>
+            <p>Built a Byte Pair Encoding tokenizer that learns subword tokens through frequency-based merges and encodes and decodes text.</p>
+            <div class="card-footer">
+              <span>Aug 2026–Sep 2026</span>
+              <a href="https://github.com/neel-31/LLM-TOKENIZER" target="_blank" rel="noreferrer"
+                aria-label="View LLM Tokenizer on GitHub">View repository ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal" data-category="java">
+          <div class="project-number">02</div>
+          <div>
+            <p class="project-type">Java / Spring Boot / PostgreSQL / REST APIs / JavaScript</p>
+            <h2>FinRecon – Financial Reconciliation &amp; Operations Platform</h2>
+            <p>Automates transaction matching, duplicate detection, exception tracking, and audit logging. Dashboards and CSV reports track match rates and unresolved exceptions.</p>
+            <div class="card-footer">
+              <span>In progress</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal" data-category="java">
+          <div class="project-number">03</div>
+          <div>
+            <p class="project-type">Java / Spring Boot / MySQL / REST APIs</p>
+            <h2>AI-Powered Adaptive Technical Assessment &amp; Interview Platform</h2>
+            <p>Adapts question difficulty to candidate responses. The Spring Boot backend supports assessment delivery, candidate management, and performance tracking, with adaptive scoring and personalized recommendations.</p>
+            <div class="card-footer">
+              <span>In progress</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+    <footer class="site-footer page-wrap">
+      <span>© 2026 Neeldhwaj K R</span
+      ><a href="https://github.com/neel-31?tab=repositories" target="_blank" rel="noreferrer"
+        >All repositories ↗</a
+      >
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
